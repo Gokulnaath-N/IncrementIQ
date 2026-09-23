@@ -1,0 +1,65 @@
+{
+  "dataset": "sample",
+  "outcomes": {
+    "visit": {
+      "raw_counts": {
+        "n_treatment": 1189865,
+        "x_treatment": 57979,
+        "n_control": 210134,
+        "x_control": 8002
+      },
+      "ztest": {
+        "p_treatment": 0.048727,
+        "p_control": 0.03808,
+        "absolute_lift": 0.010647,
+        "relative_lift_pct": 27.959,
+        "z_statistic": 21.2322,
+        "p_value": 4.818896600334068e-100,
+        "significant_at_0.05": true,
+        "ci_95_absolute_lift": [
+          0.009742,
+          0.011552
+        ]
+      },
+      "retrospective_power": {
+        "baseline_control_rate": 0.03808,
+        "cohens_h_detectable": 0.006629,
+        "mde_absolute": 0.001279,
+        "mde_relative_pct": 3.358,
+        "alpha": 0.05,
+        "power": 0.8,
+        "note": "Retrospective MDE given actual observed sample sizes, not a pre-registration calc."
+      }
+    },
+    "conversion": {
+      "raw_counts": {
+        "n_treatment": 1189865,
+        "x_treatment": 3768,
+        "n_control": 210134,
+        "x_control": 440
+      },
+      "ztest": {
+        "p_treatment": 0.003167,
+        "p_control": 0.002094,
+        "absolute_lift": 0.001073,
+        "relative_lift_pct": 51.237,
+        "z_statistic": 8.2823,
+        "p_value": 1.2085058387885523e-16,
+        "significant_at_0.05": true,
+        "ci_95_absolute_lift": [
+          0.000853,
+          0.001293
+        ]
+      },
+      "retrospective_power": {
+        "baseline_control_rate": 0.002094,
+        "cohens_h_detectable": 0.006629,
+        "mde_absolute": 0.000314,
+        "mde_relative_pct": 14.995,
+        "alpha": 0.05,
+        "power": 0.8,
+        "note": "Retrospective MDE given actual observed sample sizes, not a pre-registration calc."
+      }
+    }
+  }
+}

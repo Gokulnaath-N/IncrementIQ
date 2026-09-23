@@ -1,0 +1,114 @@
+{
+  "dataset": "sample",
+  "smd_threshold": 0.1,
+  "features": [
+    {
+      "feature": "f0",
+      "mean_treatment": 19.614674,
+      "mean_control": 19.656744,
+      "var_treatment": 28.905622,
+      "var_control": 29.052891,
+      "smd": -0.007815,
+      "balanced": true
+    },
+    {
+      "feature": "f1",
+      "mean_treatment": 10.070336,
+      "mean_control": 10.068067,
+      "var_treatment": 0.011455,
+      "var_control": 0.00922,
+      "smd": 0.022312,
+      "balanced": true
+    },
+    {
+      "feature": "f2",
+      "mean_treatment": 8.446304,
+      "mean_control": 8.447678,
+      "var_treatment": 0.089338,
+      "var_control": 0.090256,
+      "smd": -0.004585,
+      "balanced": true
+    },
+    {
+      "feature": "f3",
+      "mean_treatment": 4.170755,
+      "mean_control": 4.233904,
+      "var_treatment": 1.823802,
+      "var_control": 1.538554,
+      "smd": -0.048703,
+      "balanced": true
+    },
+    {
+      "feature": "f4",
+      "mean_treatment": 10.339425,
+      "mean_control": 10.335177,
+      "var_treatment": 0.118758,
+      "var_control": 0.111972,
+      "smd": 0.012507,
+      "balanced": true
+    },
+    {
+      "feature": "f5",
+      "mean_treatment": 4.026641,
+      "mean_control": 4.0398,
+      "var_treatment": 0.190935,
+      "var_control": 0.157276,
+      "smd": -0.031536,
+      "balanced": true
+    },
+    {
+      "feature": "f6",
+      "mean_treatment": -4.178113,
+      "mean_control": -3.991857,
+      "var_treatment": 21.144351,
+      "var_control": 19.650448,
+      "smd": -0.04124,
+      "balanced": true
+    },
+    {
+      "feature": "f7",
+      "mean_treatment": 5.105622,
+      "mean_control": 5.077515,
+      "var_treatment": 1.470136,
+      "var_control": 1.338192,
+      "smd": 0.023719,
+      "balanced": true
+    },
+    {
+      "feature": "f8",
+      "mean_treatment": 3.933333,
+      "mean_control": 3.934674,
+      "var_treatment": 0.003241,
+      "var_control": 0.003071,
+      "smd": -0.023864,
+      "balanced": true
+    },
+    {
+      "feature": "f9",
+      "mean_treatment": 16.063363,
+      "mean_control": 15.89454,
+      "var_treatment": 49.883021,
+      "var_control": 46.377543,
+      "smd": 0.024334,
+      "balanced": true
+    },
+    {
+      "feature": "f10",
+      "mean_treatment": 5.333736,
+      "mean_control": 5.330968,
+      "var_treatment": 0.028524,
+      "var_control": 0.026215,
+      "smd": 0.016732,
+      "balanced": true
+    },
+    {
+      "feature": "f11",
+      "mean_treatment": -0.17101,
+      "mean_control": -0.170873,
+      "var_treatment": 0.000529,
+      "var_control": 0.000503,
+      "smd": -0.006064,
+      "balanced": true
+    }
+  ]
+}
