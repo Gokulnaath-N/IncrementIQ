@@ -1,0 +1,86 @@
+{
+  "model": "tarnet",
+  "dataset": "full",
+  "n_test": 2096939,
+  "qini": 0.002377,
+  "qini_95ci": [
+    0.001932,
+    0.002817
+  ],
+  "auuc": 0.003527,
+  "auuc_95ci": [
+    0.003059,
+    0.004089
+  ],
+  "uplift_at_10pct": 0.007217,
+  "uplift_at_20pct": 0.004172,
+  "tau_mean": 0.000431,
+  "tau_std": 0.002243,
+  "decile_table": [
+    {
+      "decile": 1,
+      "n": 209693,
+      "mean_predicted_tau": 0.004021,
+      "observed_lift": 0.007217
+    },
+    {
+      "decile": 2,
+      "n": 209694,
+      "mean_predicted_tau": 0.000484,
+      "observed_lift": 0.000706
+    },
+    {
+      "decile": 3,
+      "n": 209694,
+      "mean_predicted_tau": 0.000157,
+      "observed_lift": 0.00028
+    },
+    {
+      "decile": 4,
+      "n": 209694,
+      "mean_predicted_tau": 6.8e-05,
+      "observed_lift": -2.2e-05
+    },
+    {
+      "decile": 5,
+      "n": 209694,
+      "mean_predicted_tau": 4.5e-05,
+      "observed_lift": 7.9e-05
+    },
+    {
+      "decile": 6,
+      "n": 209694,
+      "mean_predicted_tau": 3.4e-05,
+      "observed_lift": 9.7e-05
+    },
+    {
+      "decile": 7,
+      "n": 209694,
+      "mean_predicted_tau": 2.9e-05,
+      "observed_lift": 0.000118
+    },
+    {
+      "decile": 8,
+      "n": 209694,
+      "mean_predicted_tau": 2.4e-05,
+      "observed_lift": 8.7e-05
+    },
+    {
+      "decile": 9,
+      "n": 209694,
+      "mean_predicted_tau": 2.1e-05,
+      "observed_lift": 4.4e-05
+    },
+    {
+      "decile": 10,
+      "n": 209694,
+      "mean_predicted_tau": -0.000572,
+      "observed_lift": 0.001995
+    }
+  ],
+  "random_baseline_sanity_check": {
+    "shuffled_tau_qini": 1.6e-05,
+    "ate_for_reference": 0.00115,
+    "sanity_pass": true
+  }
+}
