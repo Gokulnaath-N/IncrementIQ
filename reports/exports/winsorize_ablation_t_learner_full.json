@@ -1,0 +1,149 @@
+{
+  "model": "t_learner",
+  "dataset": "full",
+  "clip_bounds": [
+    -0.000299,
+    0.021869
+  ],
+  "n_clipped": {
+    "low": 20970,
+    "high": 20970
+  },
+  "results": {
+    "raw": {
+      "qini": 0.00255,
+      "auuc": 0.0037,
+      "uplift_at_10pct": 0.00736,
+      "decile_table": [
+        {
+          "decile": 1,
+          "n": 209693,
+          "mean_predicted_tau": 0.009409,
+          "observed_lift": 0.00736
+        },
+        {
+          "decile": 2,
+          "n": 209694,
+          "mean_predicted_tau": 0.000597,
+          "observed_lift": 0.000718
+        },
+        {
+          "decile": 3,
+          "n": 209694,
+          "mean_predicted_tau": 0.000181,
+          "observed_lift": 9.9e-05
+        },
+        {
+          "decile": 4,
+          "n": 209694,
+          "mean_predicted_tau": 6.4e-05,
+          "observed_lift": 0.000113
+        },
+        {
+          "decile": 5,
+          "n": 209694,
+          "mean_predicted_tau": 3.9e-05,
+          "observed_lift": 0.000131
+        },
+        {
+          "decile": 6,
+          "n": 209694,
+          "mean_predicted_tau": 2.6e-05,
+          "observed_lift": 1.2e-05
+        },
+        {
+          "decile": 7,
+          "n": 209694,
+          "mean_predicted_tau": 1.7e-05,
+          "observed_lift": -4.7e-05
+        },
+        {
+          "decile": 8,
+          "n": 209694,
+          "mean_predicted_tau": 9e-06,
+          "observed_lift": 5e-05
+        },
+        {
+          "decile": 9,
+          "n": 209694,
+          "mean_predicted_tau": 0.0,
+          "observed_lift": 0.000118
+        },
+        {
+          "decile": 10,
+          "n": 209694,
+          "mean_predicted_tau": -0.000467,
+          "observed_lift": 0.001005
+        }
+      ]
+    },
+    "winsorized": {
+      "qini": 0.002473,
+      "auuc": 0.003623,
+      "uplift_at_10pct": 0.00736,
+      "decile_table": [
+        {
+          "decile": 1,
+          "n": 209693,
+          "mean_predicted_tau": 0.005943,
+          "observed_lift": 0.00736
+        },
+        {
+          "decile": 2,
+          "n": 209694,
+          "mean_predicted_tau": 0.000597,
+          "observed_lift": 0.000718
+        },
+        {
+          "decile": 3,
+          "n": 209694,
+          "mean_predicted_tau": 0.000181,
+          "observed_lift": 9.9e-05
+        },
+        {
+          "decile": 4,
+          "n": 209694,
+          "mean_predicted_tau": 6.4e-05,
+          "observed_lift": 0.000113
+        },
+        {
+          "decile": 5,
+          "n": 209694,
+          "mean_predicted_tau": 3.9e-05,
+          "observed_lift": 0.000131
+        },
+        {
+          "decile": 6,
+          "n": 209694,
+          "mean_predicted_tau": 2.6e-05,
+          "observed_lift": 1.2e-05
+        },
+        {
+          "decile": 7,
+          "n": 209694,
+          "mean_predicted_tau": 1.7e-05,
+          "observed_lift": -4.7e-05
+        },
+        {
+          "decile": 8,
+          "n": 209694,
+          "mean_predicted_tau": 9e-06,
+          "observed_lift": 5e-05
+        },
+        {
+          "decile": 9,
+          "n": 209694,
+          "mean_predicted_tau": 0.0,
+          "observed_lift": 0.000118
+        },
+        {
+          "decile": 10,
+          "n": 209694,
+          "mean_predicted_tau": -6.6e-05,
+          "observed_lift": 0.001005
+        }
+      ]
+    }
+  },
+  "qini_delta_winsorized_minus_raw": -7.7e-05
+}
