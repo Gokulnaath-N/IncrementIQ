@@ -1,0 +1,18 @@
+{
+  "dataset": "full",
+  "n_control_pool": 1467856,
+  "pseudo_assignment": "50/50 symmetric",
+  "base_score_pinned": 0.00193751975670638,
+  "tau_mean": 2.1e-05,
+  "tau_std": 0.006139,
+  "ci_95": [
+    3e-06,
+    3.9e-05
+  ],
+  "statistical_check_pass": false,
+  "real_ate_conversion": 0.001152,
+  "practical_ratio_pct": 1.837,
+  "practical_threshold_pct": 10.0,
+  "practical_check_pass": true,
+  "overall_verdict": "PASS"
+}
