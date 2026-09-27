@@ -1,0 +1,30 @@
+{
+  "dataset": "full",
+  "n_test": 2096939,
+  "pairs": {
+    "t_learner_vs_x_learner": {
+      "spearman_corr": 0.6065,
+      "p_value": 0.0
+    },
+    "t_learner_vs_causal_forest": {
+      "spearman_corr": 0.2355,
+      "p_value": 0.0
+    },
+    "t_learner_vs_tarnet": {
+      "spearman_corr": 0.6429,
+      "p_value": 0.0
+    },
+    "x_learner_vs_causal_forest": {
+      "spearman_corr": 0.293,
+      "p_value": 0.0
+    },
+    "x_learner_vs_tarnet": {
+      "spearman_corr": 0.7333,
+      "p_value": 0.0
+    },
+    "causal_forest_vs_tarnet": {
+      "spearman_corr": 0.2438,
+      "p_value": 0.0
+    }
+  }
+}
