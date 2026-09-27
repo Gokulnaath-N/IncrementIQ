@@ -1,0 +1,86 @@
+{
+  "model": "x_learner",
+  "dataset": "full",
+  "n_test": 2096939,
+  "qini": 0.00291,
+  "qini_95ci": [
+    0.002135,
+    0.00376
+  ],
+  "auuc": 0.004059,
+  "auuc_95ci": [
+    0.003181,
+    0.005101
+  ],
+  "uplift_at_10pct": 0.007818,
+  "uplift_at_20pct": 0.00475,
+  "tau_mean": 0.000945,
+  "tau_std": 0.004508,
+  "decile_table": [
+    {
+      "decile": 1,
+      "n": 209693,
+      "mean_predicted_tau": 0.00715,
+      "observed_lift": 0.007818
+    },
+    {
+      "decile": 2,
+      "n": 209694,
+      "mean_predicted_tau": 0.000671,
+      "observed_lift": 0.000824
+    },
+    {
+      "decile": 3,
+      "n": 209694,
+      "mean_predicted_tau": 0.000302,
+      "observed_lift": 0.000398
+    },
+    {
+      "decile": 4,
+      "n": 209694,
+      "mean_predicted_tau": 0.000215,
+      "observed_lift": -8.9e-05
+    },
+    {
+      "decile": 5,
+      "n": 209694,
+      "mean_predicted_tau": 0.000193,
+      "observed_lift": 0.000138
+    },
+    {
+      "decile": 6,
+      "n": 209694,
+      "mean_predicted_tau": 0.000188,
+      "observed_lift": 0.000126
+    },
+    {
+      "decile": 7,
+      "n": 209694,
+      "mean_predicted_tau": 0.000187,
+      "observed_lift": 5.1e-05
+    },
+    {
+      "decile": 8,
+      "n": 209694,
+      "mean_predicted_tau": 0.000187,
+      "observed_lift": 3.2e-05
+    },
+    {
+      "decile": 9,
+      "n": 209694,
+      "mean_predicted_tau": 0.000187,
+      "observed_lift": 6.4e-05
+    },
+    {
+      "decile": 10,
+      "n": 209694,
+      "mean_predicted_tau": 0.000166,
+      "observed_lift": 0.000219
+    }
+  ],
+  "random_baseline_sanity_check": {
+    "shuffled_tau_qini": 7.4e-05,
+    "ate_for_reference": 0.00115,
+    "sanity_pass": true
+  }
+}
