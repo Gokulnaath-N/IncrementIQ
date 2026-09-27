@@ -1,0 +1,18 @@
+{
+  "dataset": "sample",
+  "n_control_pool": 147094,
+  "pseudo_assignment": "50/50 symmetric",
+  "base_score_pinned": 0.002093899139325873,
+  "tau_mean": -0.00024,
+  "tau_std": 0.017016,
+  "ci_95": [
+    -0.000403,
+    -8.1e-05
+  ],
+  "statistical_check_pass": false,
+  "real_ate_conversion": 0.001073,
+  "practical_ratio_pct": 22.393,
+  "practical_threshold_pct": 10.0,
+  "practical_check_pass": false,
+  "overall_verdict": "FAIL - investigate before trusting CATE models"
+}
