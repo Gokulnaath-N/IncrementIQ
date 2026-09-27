@@ -1,0 +1,18 @@
+{
+  "dataset": "sample",
+  "n_test": 210000,
+  "pairs": {
+    "t_learner_vs_x_learner": {
+      "spearman_corr": 0.5444,
+      "p_value": 0.0
+    },
+    "t_learner_vs_causal_forest": {
+      "spearman_corr": 0.2512,
+      "p_value": 0.0
+    },
+    "x_learner_vs_causal_forest": {
+      "spearman_corr": 0.2862,
+      "p_value": 0.0
+    }
+  }
+}
