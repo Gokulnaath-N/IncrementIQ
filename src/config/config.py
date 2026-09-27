@@ -14,3 +14,10 @@ LEAK_COL = "exposure"  # post-treatment — never use as a feature
 
 RANDOM_SEED = 42
 SAMPLE_FRACTION = 0.10
+
+# ── Stage 4 — Split & Scaling ─────────────────────────────────────────────────
+SPLITS_DIR = PROCESSED_DIR / "splits"          # written by feature_engineering.py
+SCALER_PATH = ROOT_DIR / "models" / "feature_scaler.joblib"  # fit on train only
+TRAIN_FRAC = 0.70
+VAL_FRAC   = 0.15
+TEST_FRAC  = 0.15
